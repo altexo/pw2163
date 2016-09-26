@@ -1,0 +1,26 @@
+
+body /*selector de tipo etiqueta*/
+{
+	/*atributo:valor;*/
+	max-width: 1024px;
+	border: 1px solid blue;
+	border-radius: 5px;
+
+}
+
+header{
+
+	background-color: #0D112B;
+	border: 1px solid red;
+	color:white;
+	text-align: center;
+
+}
+
+header nav ul li{
+	/*border: 1px solid #f12e45;*/
+	background: #f12e45;
+	border-radius: 5px;
+	display: inline-block;
+	/*padding: 5px;*/
+}
