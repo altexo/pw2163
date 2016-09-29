@@ -5,7 +5,15 @@ body /*selector de tipo etiqueta*/
 	max-width: 1024px;
 	border: 1px solid blue;
 	border-radius: 5px;
+	margin: 0px auto;
 
+
+}
+footer
+{
+	border: 1px solid blue;
+	text-align: center;
+	font-size: 1em;
 }
 
 header{
@@ -34,4 +42,17 @@ header nav ul li{
 header nav ul li:hover{
 	background: white;
 	color: #f12e45;
+}
+
+main section article 
+{
+	width: 23%;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+main section
+{
+	margin-top: 10px;
 }
