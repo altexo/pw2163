@@ -1,4 +1,9 @@
 
+@font-face{
+	font-family: 'Rubik';
+	src: url('fuentes/Rubik/Rubik-Light.ttf');
+}
+
 body /*selector de tipo etiqueta*/
 {
 	/*atributo:valor;*/
@@ -22,10 +27,13 @@ header{
 	border: 1px solid red;
 	color:white;
 	text-align: center;
-	font-family: sans-serif;
-	padding: 0px 0px 30px 0px
+		padding: 0px 0px 30px 0px
 
 
+}
+header h1{
+font-family: 'Open Sans', sans-serif;
+/*font-family: 'Orbitron', sans-serif;*/
 }
 
 header nav ul li{
@@ -37,6 +45,7 @@ header nav ul li{
 	width: 100px;
 	margin: 0px 10px 10px 10px;
 	box-shadow: 2px 2px 2px;
+	font-family: 'Rubik';
 }
 
 header nav ul li:hover{
@@ -49,6 +58,7 @@ main section article
 	width: 23%;
 	display: inline-block;
 	vertical-align: top;
+	font-family: 'Rubik';
 
 }
 
