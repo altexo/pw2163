@@ -1,0 +1,21 @@
+#icon
+{
+	float: right;
+	
+}
+#menu ul li{
+	display: inline-block;
+	margin-right: 5%;
+
+
+}
+#menu ul{
+	background: linear-gradient(white, #ff7e22);
+	padding: 15px;
+	border-radius: 15px;
+
+
+}
+#container{
+	box-shadow: 5px 5px 5px 4px gray;
+}
